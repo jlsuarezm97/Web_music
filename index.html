@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>EBEL | Official</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="EBEL - Trap Romántico. Música con sentimiento, pasión y vibra real.">
+  <meta name="keywords" content="EBEL, trap romantico, musica urbana, artista nuevo, trap latino">
+  <meta name="author" content="EBEL">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <h1>EBEL</h1>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">Ebel</div>
+  <ul>
+    <li><a href="#about">Sobre</a></li>
+    <li><a href="#music">Música</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <canvas id="particles"></canvas>
+  <img src="perfil1.jpg" alt="Foto de EBEL" class="profile-img">
+  <div class="hero-content">
+    <h1 id="logo">Ebel</h1>
+    <p>Música Romántica</p>
+    <button id="playBtn" class="btn">▶️ Escuchar Beat</button>
+    <button onclick="scrollToMusic()" class="btn btn-secondary">Escuchar Discografía</button>
+  </div>
+  <audio id="song" src="Recuerdo.mp3" preload="auto" loop></audio>
+</header>
+
+<!-- Sobre -->
+<section id="about" class="section reveal">
+  <h2>Sobre Ebel</h2>
+  <p>
+    Soy EBEL, un artista emergente dentro del trap romántico que está dando sus primeros pasos en la música con mucha pasión y dedicación. Estoy empezando, aprendiendo cada día y creciendo poco a poco, pero con un sueño claro: construir un sonido propio y conectar con las personas a través de lo que siento.
+  </p>
+  <p>
+    No canto historias inventadas, canto lo que vivo. Amor, errores, inseguridades, orgullo, momentos buenos y malos… todo eso se convierte en música. No soy perfecto, solo soy alguien que transforma sus emociones en canciones.
+  </p>
+  <p>
+    Mi estilo mezcla trap moderno y reggeton con melodías envolventes y una voz con identidad, buscando transmitir algo real más que algo comercial. No busco competir con nadie, solo mejorar cada día y dar lo mejor de mí en cada proyecto.
+  </p>
+  <p>
+    Estoy comenzando este camino con humildad, fe y disciplina. Cada canción es un paso más, cada error es aprendizaje y cada logro, por pequeño que sea, es motivo de gratitud. Esto no es solo música… es mi proceso.
+  </p>
+</section>
+
+<!-- Discografía -->
+<section id="music" class="section reveal">
+  <h2>Discografía</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Cuentales</h3>
+      <p>2026 • Trap Romántico</p>
+      <audio controls>
+        <source src="Cuentales.m4a" type="audio/mpeg">
+      </audio>
+      <a href="https://youtube.com/@ebeljlsm?si=gohHt0YUh5-s_Pcq" target="_blank">Escuchar en YouTube</a>
+    </div>
+    <div class="card">
+      <h3>Año nuevo</h3>
+      <p>2025 • Reggeton</p>
+      <audio controls>
+        <source src="Año_nuevo.mp3" type="audio/mpeg">
+      </audio>
+      <a href="https://youtu.be/ZLfa2uGcAk8?si=7jGL4GRtuVYGXPNR" target="_blank">Ver en YouTube</a>
+    </div>
+    <div class="card">
+      <h3>Duele</h3>
+      <p>2025 • Reggeton</p>
+      <audio controls>
+        <source src="Duele.mp3" type="audio/mpeg">
+      </audio>
+      <a href="https://youtu.be/dYa_IxuW13Y?si=xnubn5W46Uu-bOoi" target="_blank">Ver en YouTube</a>
+    </div>
+  </div>
+</section>
+
+<!-- Redes Sociales -->
+<section id="socials" class="section reveal">
+  <h2>Redes Sociales</h2>
+  <div class="social-links">
+    <a href="https://www.instagram.com/suarezmendozajorgeluis" target="_blank" class="social-btn">Instagram</a>
+    <a href="https://www.facebook.com/jorgeluis.suarezmendoza.94" target="_blank" class="social-btn">Facebook</a>
+    <a href="https://youtube.com/@ebeljlsm?si=gohHt0YUh5-s_Pcq" target="_blank" class="social-btn">YouTube</a>
+    <a href="https://whatsapp.com/channel/0029Vb79i7bICVfobo60Da01" target="_blank" class="social-btn">Canal de WhatsApp</a>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contact" class="section reveal">
+  <h2>Contrataciones</h2>
+  <p>
+    📩 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ebeljlsm@gmail.com&su=Booking%20EBEL&body=Hola%20EBEL,%20quiero%20información%20sobre..." target="_blank" class="contact-btn">
+      ebeljlsm@gmail.com
+    </a>
+  </p>
+</section>
+
+<footer>
+  © 2026 EBEL • Todos los derechos reservados • 
+  <a href="https://www.instagram.com/suarezmendozajorgeluis" target="_blank">Instagram</a> |
+  <a href="https://www.facebook.com/jorgeluis.suarezmendoza.94" target="_blank">Facebook</a> |
+  <a href="https://youtube.com/@ebeljlsm?si=gohHt0YUh5-s_Pcq" target="_blank">YouTube</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
